@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="br.com.ericserafim.kjogovelha.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jogo_da_velha" />
+
+
+    <TableLayout
+        android:id="@+id/tb_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="6" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn7"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                style="@style/BtnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="9" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
